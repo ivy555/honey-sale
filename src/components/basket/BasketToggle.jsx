@@ -1,4 +1,4 @@
-import PropType from 'prop-types';
+import PropType from "prop-types";
 
 const BasketToggle = ({ children }) => {
   const onClickToggle = () => {

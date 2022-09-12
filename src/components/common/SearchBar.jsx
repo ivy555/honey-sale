@@ -1,9 +1,18 @@
 /* eslint-disable react/no-array-index-key */
-import { SearchOutlined } from '@ant-design/icons';
-import React, { useRef, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { useHistory } from 'react-router-dom';
-import { clearRecentSearch, removeSelectedRecent } from 'redux/actions/filterActions';
+// import { SearchOutlined } from '@ant-design/icons';
+// import React, { useRef, useState } from 'react';
+// import { useDispatch, useSelector } from 'react-redux';
+// import { useHistory } from 'react-router-dom';
+// import { clearRecentSearch, removeSelectedRecent } from 'redux/actions/filterActions';
+import { SearchOutlined } from "@ant-design/icons";
+import React from "react";
+import { useState } from "react";
+import { useRef } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useHistory } from "react-router-dom";
+import { clearRecentSearch, removeSelectedRecent } from "../../redux/actions/filterActions";
+
+
 
 const SearchBar = () => {
   const [searchInput, setSearchInput] = useState('');

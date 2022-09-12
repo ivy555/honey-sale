@@ -1,5 +1,6 @@
-import PropType from 'prop-types';
-import React, { useState } from 'react';
+import PropType from "prop-types";
+// import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const ColorChooser = ({ availableColors, onSelectedColorChange }) => {
   const [selectedColor, setSelectedColor] = useState('');

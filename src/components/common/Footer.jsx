@@ -1,7 +1,14 @@
-import * as Route from 'constants/routes';
-import logo from 'images/logo-full.png';
+// import * as Route from 'constants/routes';
+// import logo from 'images/logo-full.png';
+// import React from 'react';
+// import { useLocation } from 'react-router-dom';
+
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import * as Route from '../../constants/routes';
+import logo from '../../images/logo-full.png';
+
+
 
 const Footer = () => {
   const { pathname } = useLocation();
@@ -18,7 +25,7 @@ const Footer = () => {
           <span>
             Developed by
             {' '}
-            <a href="https://github.com/jgudo">JULIUS GUEVARRA</a>
+            <a href="https://github.com/ivy555">Honigfinder</a>
           </span>
         </strong>
       </div>
@@ -33,7 +40,7 @@ const Footer = () => {
         <strong>
           <span>
             Fork this project &nbsp;
-            <a href="https://github.com/jgudo/ecommerce-react">HERE</a>
+            <a href="https://github.com/ivy555">HERE</a>
           </span>
         </strong>
       </div>

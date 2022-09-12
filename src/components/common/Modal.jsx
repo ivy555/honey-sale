@@ -1,6 +1,7 @@
 import PropType from 'prop-types';
 import React from 'react';
-import AppModal from 'react-modal';
+// import AppModal from 'react-modal';
+import AppModal from "react-modal";
 
 const Modal = ({
   isOpen,

@@ -1,6 +1,7 @@
 import React from 'react';
 import logoWordmark from '../../../static/logo-wordmark.png';
 
+
 const Preloader = () => (
   <div className="preloader">
     <svg className="logo-symbol" viewBox="0 0 41.25 41.25">

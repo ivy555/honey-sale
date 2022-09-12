@@ -1,18 +1,35 @@
 /* eslint-disable indent */
-import { FilterOutlined, ShoppingOutlined } from '@ant-design/icons';
-import * as ROUTE from 'constants/routes';
-import logo from 'images/logo-full.png';
-import React, { useEffect, useRef } from 'react';
+// import { FilterOutlined, ShoppingOutlined } from '@ant-design/icons';
+// import * as ROUTE from 'constants/routes';
+// import logo from 'images/logo-full.png';
+// import React, { useEffect, useRef } from 'react';
+// import { useSelector } from 'react-redux';
+// import {
+//   Link, NavLink, useLocation
+// } from 'react-router-dom';
+// import UserAvatar from 'views/account/components/UserAvatar';
+// import BasketToggle from '../basket/BasketToggle';
+// import Badge from './Badge';
+// import FiltersToggle from './FiltersToggle';
+// import MobileNavigation from './MobileNavigation';
+// import SearchBar from './SearchBar';
+import {FilterOutlined, ShoppingOutlined} from '@ant-design/icons';
+import * as ROUTE from "constants/routes";
+import React, { useRef } from 'react';
+import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import {
-  Link, NavLink, useLocation
-} from 'react-router-dom';
-import UserAvatar from 'views/account/components/UserAvatar';
+import { Link, NavLink, useLocation } from 'react-router-dom';
+import logo from '../../images/logo-full.png';
+import UserAvatar from '../../views/account/components/UserAvatar';
 import BasketToggle from '../basket/BasketToggle';
 import Badge from './Badge';
 import FiltersToggle from './FiltersToggle';
-import MobileNavigation from './MobileNavigation';
+import MobileNavigation  from './MobileNavigation';
 import SearchBar from './SearchBar';
+
+
+
+
 
 const Navigation = () => {
   const navbar = useRef(null);

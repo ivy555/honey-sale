@@ -4,6 +4,8 @@ import "firebase/firestore";
 import "firebase/storage";
 import firebaseConfig from "./config";
 
+app
+
 class Firebase {
   constructor() {
     app.initializeApp(firebaseConfig);

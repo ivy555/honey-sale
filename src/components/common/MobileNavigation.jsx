@@ -1,12 +1,29 @@
-import { BasketToggle } from 'components/basket';
-import { HOME, SIGNIN } from 'constants/routes';
-import PropType from 'prop-types';
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import UserNav from 'views/account/components/UserAvatar';
+// import { BasketToggle } from 'components/basket';
+// import { HOME, SIGNIN } from 'constants/routes';
+// import PropType from 'prop-types';
+// import React from 'react';
+// import { Link, useLocation } from 'react-router-dom';
+// import UserNav from 'views/account/components/UserAvatar';
+// import Badge from './Badge';
+// import FiltersToggle from './FiltersToggle';
+// import SearchBar from './SearchBar';
+
+import { SIGNIN } from "../../constants/constants";
+import { HOME } from "../../constants/routes";
+import BasketToggle from "../basket/BasketToggle";
+import PropType from "prop-types";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import UserNav from "../../views/account/components/UserAvatar";
 import Badge from './Badge';
-import FiltersToggle from './FiltersToggle';
-import SearchBar from './SearchBar';
+import FiltersToggle from "./FiltersToggle";
+import SearchBar from "./SearchBar";
+
+
+
+
+
+
 
 const Navigation = (props) => {
   const {

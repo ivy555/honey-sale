@@ -1,12 +1,24 @@
+// import PropType from 'prop-types';
+// import React, { useState } from 'react';
+// import {
+//   Handles, Rail, Slider, Ticks, Tracks
+// } from 'react-compound-slider';
+// import Handle from './Handle';
+// import SliderRail from './SliderRail';
+// import Tick from './Tick';
+// import Track from './Track';
+
 import PropType from 'prop-types';
-import React, { useState } from 'react';
-import {
-  Handles, Rail, Slider, Ticks, Tracks
-} from 'react-compound-slider';
+import React from 'react';
+import { useState } from 'react';
+import { Handles, Rail, Slider, Ticks, Tracks } from 'react-compound-slider';
 import Handle from './Handle';
 import SliderRail from './SliderRail';
 import Tick from './Tick';
 import Track from './Track';
+
+
+
 
 const sliderStyle = {
   position: 'relative',

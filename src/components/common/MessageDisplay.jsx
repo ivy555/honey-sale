@@ -1,5 +1,8 @@
-import PropType from 'prop-types';
-import React from 'react';
+// import PropType from 'prop-types';
+// import React from 'react';
+import PropType from "prop-types";
+import React from "react";
+
 
 const MessageDisplay = ({
   message, description, buttonLabel, action

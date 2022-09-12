@@ -1,14 +1,29 @@
 /* eslint-disable max-len */
-import { BasketItem, BasketToggle } from 'components/basket';
-import { Boundary, Modal } from 'components/common';
-import { CHECKOUT_STEP_1 } from 'constants/routes';
+// import { BasketItem, BasketToggle } from 'components/basket';
+// import { Boundary, Modal } from 'components/common';
+// import { CHECKOUT_STEP_1 } from 'constants/routes';
+// import firebase from 'firebase/firebase';
+// import { calculateTotal, displayMoney } from 'helpers/utils';
+// import { useDidMount, useModal } from 'hooks';
+// import React, { useEffect } from 'react';
+// import { useDispatch, useSelector } from 'react-redux';
+// import { useHistory, useLocation } from 'react-router-dom';
+// import { clearBasket } from 'redux/actions/basketActions';
+
+
+import Boundary from "../common/Boundary";
+import Modal from "../common/Modal";
+import BasketItem from "./BasketItem";
+import BasketToggle from "./BasketToggle";
 import firebase from 'firebase/firebase';
-import { calculateTotal, displayMoney } from 'helpers/utils';
-import { useDidMount, useModal } from 'hooks';
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { useHistory, useLocation } from 'react-router-dom';
-import { clearBasket } from 'redux/actions/basketActions';
+import { calculateTotal, displayMoney } from "../../helpers/utils";
+import useDidMount from "../../hooks/useDidMount";
+import useModal from "../../hooks/useModal";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useLocation, useNavigate, useHistory } from "react-router-dom";
+import { clearBasket } from "../../redux/actions/basketActions";
+
 
 const Basket = () => {
   const { isOpenModal, onOpenModal, onCloseModal } = useModal();
