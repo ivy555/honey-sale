@@ -5,7 +5,7 @@
 //     UPDATE_PROFILE,
 //     UPDATE_PROFILE_SUCCESS
 //   } from 'constants/constants';
-import { CLEAR_PROFILE, SET_PROFILE, UPDATE_EMAIL, UPDATE_PROFILE_SUCCESS } from "../../constants/constants";
+import { CLEAR_PROFILE, SET_PROFILE, UPDATE_EMAIL, UPDATE_PROFILE, UPDATE_PROFILE_SUCCESS } from "../../constants/constants";
 
   
   export const clearProfile = () => ({

@@ -16,19 +16,33 @@
 // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
 
+//test import for index.jsx
 
-import { Preloader } from 'components/common';
-import 'normalize.css/normalize.css';
-import React from 'react';
-import { render } from 'react-dom';
-import 'react-phone-input-2/lib/style.css';
+// import 'styles/style.scss';
+// import 'normalize.css/normalize.css';
 // import { onAuthStateFail, onAuthStateSuccess } from './redux/actions/authActions';
-import configureStore from 'redux/store/store';
-import 'styles/style.scss';
-import WebFont from 'webfontloader';
-import App from './App';
-import { onAuthStateFail, onAuthStateSuccess } from './redux/actions/authActions';
-import firebase from './services/firebase';
+// import 'react-phone-input-2/lib/style.css';
+// import { Preloader } from './components/common';
+// import React from 'react';
+// import { render } from 'react-dom';
+// import configureStore from './redux/store/store';
+// import WebFont from 'webfontloader';
+// import App from './App';
+// import firebase from './services/firebase';
+
+
+import "../src/styles/style.scss";
+import { onAuthStateFail, onAuthStateSuccess } from "./redux/actions/authActions";
+import 'react-phone-input-2/lib/style.css';
+import Preloader from "./components/common/Preloader";
+import React from 'react';
+import { render } from "react-dom";
+import { configureStore } from "@reduxjs/toolkit";
+import WebFont from "webfontloader";
+import App from "./App";
+import firebase from "./services/firebase";
+
+
 
 
 WebFont.load({

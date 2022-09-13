@@ -31,6 +31,10 @@ import { resetFilter } from "../actions/filterActions";
 import { setAuthenticating, setAuthStatus } from "../actions/miscActions";
 import { clearProfile, setProfile } from "../actions/profileActions";
  import {firebase} from '../../services';
+ import defaultAvatar from '../images/defaultAvatar.jpg';
+ import defaultBanner from '../images/defaultBanner.jpg';
+
+ 
 
 
 

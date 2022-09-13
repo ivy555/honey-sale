@@ -20,6 +20,7 @@ import PriceRange from "./PriceRange";
 
 
 
+
 const Filters = ({ closeModal }) => {
   const { filter, isLoading, products } = useSelector((state) => ({
     filter: state.filter,

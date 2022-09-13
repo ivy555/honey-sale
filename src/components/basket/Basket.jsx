@@ -23,6 +23,8 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate, useHistory } from "react-router-dom";
 import { clearBasket } from "../../redux/actions/basketActions";
+import { CHECKOUT_STEP_1 } from "../../constants/routes";
+
 
 
 const Basket = () => {

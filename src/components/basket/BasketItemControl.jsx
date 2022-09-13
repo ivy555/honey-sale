@@ -4,11 +4,12 @@
 // import { useDispatch } from 'react-redux';
 // import { addQtyItem, minusQtyItem } from 'redux/actions/basketActions';
 
-import { MinusOutlined } from "@ant-design/icons";
+import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
 import PropType from "prop-types";
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addQtyItem, minusQtyItem } from "../../redux/actions/basketActions";
+
 
 
 
