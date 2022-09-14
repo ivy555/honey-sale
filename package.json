@@ -28,6 +28,7 @@
     "redux-saga": "^1.2.1",
     "redux-saga-effects": "^1.1.0",
     "redux-saga-take-latest-by": "^1.0.2",
+    "sass": "^1.54.9",
     "scss": "^0.2.4",
     "uuid": "^9.0.0",
     "uuidv4": "^6.2.13",
